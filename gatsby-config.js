@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Practice gatsby app`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [],
-}
+  plugins: ["gatsby-plugin-react-helmet"]
+};
